@@ -30,3 +30,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from celox-common
 $(call inherit-product, device/samsung/celox-common/celox-common.mk)
+
+# OTA ID
+ otaupdater.otaid=legohercules
